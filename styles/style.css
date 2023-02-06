@@ -1,0 +1,173 @@
+/*--------------
+   Needed fotns 
+----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@200;400;700&family=Roboto+Condensed&family=Work+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* NAVIGATION SECTION- */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px 0px 120px;
+
+}
+
+.container h3 {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 15px;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+
+/* ---------
+WEB INFO SECTIon ----------- */
+.web-info {
+    width: 90%;
+}
+
+.web-info>h2 {
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.web-info>p {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.web-info>p>a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 9px 15px 9px 25px;
+
+    border-radius: 20px;
+}
+
+.web-info>p i {
+    padding-left: 7px;
+}
+
+.web-info-image {
+    size: 100%;
+    transition: transform 2s;
+}
+
+.web-info-image:hover {
+    transform: scale(1.10);
+}
+
+
+/*--------------
+ company logos 
+-------- -----*/
+.logos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.company-logos img {
+    height: 42px;
+    width: 80px;
+    padding-right: 30px;
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.236);
+    margin: 20px 200px;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: center;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-content: space-between;
+}
+
+
+/*---------------------------
+ PRODUCR FOR SALE SECTION
+-------------------------- */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.352);
+}
+
+.product>img {
+
+    border-radius: 10px;
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.product>img:hover {
+    transform: scale(1.15);
+}
+
+.product h2 {
+    font-size: 28px;
+}
+
+.product>p {
+    font-size: 24px;
+}
+
+.product h2,
+p,
+.ratings {
+    margin: 3px;
+}
+
+.ratings img {
+    height: 16px;
+    width: 16px;
+}
