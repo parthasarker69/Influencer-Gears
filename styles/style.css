@@ -7,6 +7,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    margin: 0%;
+
 }
 
 /* NAVIGATION SECTION- */
@@ -185,18 +187,25 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #0A0826;
+    color: #FFFFFF;
+    margin-top: 100px;
 }
 
-.our-contacts ul {
+.our-contacts {
+    padding: 0px;
+}
+
+/* .our-contacts ul {
     width: 140px;
     margin: 0;
-}
+} */
 
 .our-contacts li {
     list-style: none;
     background-color: rgba(128, 128, 128, 0.351);
     margin: 8px;
-    padding: 8px;
+    padding: 5px 8px;
     border-radius: 15px;
 
 
